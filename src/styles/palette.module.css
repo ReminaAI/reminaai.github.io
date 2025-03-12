@@ -1,0 +1,339 @@
+.colored {
+    width: 16vw;
+    height: 70vh;
+}
+
+.colorCode {
+    font-size: 25px !important;
+}
+
+.menu {
+    position: fixed;
+    top: 60px;
+    right: 60px;
+    border: #ffffff solid 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 120px;
+    height: 150px;
+    background-color: #c9c1c1;
+}
+
+.menu button {
+    background: none;
+    border: none;
+    font-size: 30px;
+
+}
+
+.burgerIcon {
+    position: fixed;
+    top: 40px;
+    right: 40px;
+}
+
+.burgerScreen {
+    width: 100vw;
+    height: 100vh;
+}
+
+.cartoes .hover1:hover {
+    transform: translate(-50%, -50%) rotate(-45deg) translate(0%, -10%) !important;
+    transform-origin: bottom;
+}
+
+.cartoes .hover2:hover {
+    transform: translate(-50%, -50%) rotate(-22deg) translate(0%, -10%) !important;
+    transform-origin: bottom;
+}
+
+.cartoes .hover3:hover {
+    transform: translate(-50%, -50%) rotate(0deg) translate(0%, -10%) !important;
+    transform-origin: bottom;
+}
+
+.cartoes .hover4:hover {
+    transform: translate(-50%, -50%) rotate(22deg) translate(0%, -10%) !important;
+    transform-origin: bottom;
+}
+
+
+.cartoes .hover5:hover {
+    transform: translate(-50%, -50%) rotate(45deg) translate(0%, -10%) !important;
+    transform-origin: bottom;
+}
+
+
+
+
+#top button {
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: none;
+}
+
+button img {
+    width: 20px;
+    height: 20px;
+}
+
+.window #top {
+    display: flex;
+    width: 16vw;
+    height: 3vh; 
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+
+
+#top p {
+
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+
+.strip {
+    width: 19vw;
+    height: 90vh;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+
+}
+.strip p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.window #one {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg) translate(0%, 15%);
+    transform-origin: bottom;
+    transition: transform 0.2s;
+}
+
+.window #two {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-22deg) translate(0%, 15%);
+    transform-origin: bottom;
+    transition: transform 0.2s;
+}
+
+.window #three {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg) translate(0%, 15%);
+    transform-origin: bottom;
+    transition: transform 0.2s;
+}
+
+.window #four {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(22deg) translate(0%, 15%);
+    transform-origin: bottom;
+    transition: transform 0.2s;
+}
+
+.window #five {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg) translate(0%, 15%);
+    transform-origin: bottom;
+    transition: transform 0.2s;
+}
+
+.window {
+    background-color: #f1f1f1;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+/* .coloredTest {
+    width: 12vw;
+    height: 70vh;
+} */
+
+.animation1 {
+    width: 19vw;
+    height: 90vh;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    animation-name: anim1;
+    animation-duration: 0.7s;
+
+}
+
+.animation2 {
+    width: 19vw;
+    height: 90vh;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    animation-name: anim2;
+    animation-duration: 0.7s;
+
+}
+
+.animation3 {
+    width: 19vw;
+    height: 90vh;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    animation-name: anim3;
+    animation-duration: 0.7s;
+
+}
+
+.animation4 {
+    width: 19vw;
+    height: 90vh;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    animation-name: anim4;
+    animation-duration: 0.7s;
+
+}
+
+.animation5 {
+    width: 19vw;
+    height: 90vh;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    animation-name: anim5;
+    animation-duration: 0.7s;
+
+}
+
+@keyframes anim1 {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg) translate(0%, 15%);
+    }
+
+    30% {
+        transform: translate(-50%, -60%) rotate(0deg) translate(0%, 15%);
+    }
+
+    60% {
+        transform: translate(-50%, -50%) rotate(0deg) translate(0%, 15%);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(-45deg) translate(0%, 15%);
+    }
+}
+
+@keyframes anim2 {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg) translate(0%, 15%);
+    }
+
+    30% {
+        transform: translate(-50%, -55%) rotate(0deg) translate(0%, 15%);
+    }
+
+    60% {
+        transform: translate(-50%, -50%) rotate(0deg) translate(0%, 15%);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(-22deg) translate(0%, 15%);
+    }
+}
+
+@keyframes anim3 {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg) translate(0%, 15%);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(0deg) translate(0%, 15%);
+    }
+}
+
+@keyframes anim4 {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg) translate(0%, 15%);
+    }
+
+    30% {
+        transform: translate(-50%, -45%) rotate(0deg) translate(0%, 15%);
+    }
+
+    60% {
+        transform: translate(-50%, -50%) rotate(0deg) translate(0%, 15%);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(22deg) translate(0%, 15%);
+    }
+}
+
+@keyframes anim5 {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg) translate(0%, 15%);
+    }
+
+    30% {
+        transform: translate(-50%, -40%) rotate(0deg) translate(0%, 15%);
+    }
+
+    60% {
+        transform: translate(-50%, -50%) rotate(0deg) translate(0%, 15%);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(45deg) translate(0%, 15%);
+    }
+}
